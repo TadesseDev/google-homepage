@@ -3,7 +3,10 @@ body{
     margin: 0px;
 }
 .head{
-    height: 10%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
     margin: 9px 9px 0px 0px;
 }
 .headerContainer{
