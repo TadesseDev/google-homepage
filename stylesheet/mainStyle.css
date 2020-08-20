@@ -45,7 +45,7 @@ body{
     overflow: hidden;
 }
 .mainBody .searchBox{
-padding-top: 80px;
+padding-top: 12%;
 display: block;
 width: 600px;
 height: auto;
