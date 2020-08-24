@@ -13,7 +13,7 @@ body{
     padding-right: 1%;
     float: right;
 }
-.head .text,.head .img{
+.head .text,.head  .img{
     vertical-align: middle;
     display: inline-block;
     margin: 4px;
@@ -32,6 +32,10 @@ body{
     background-image: url("../images/Google\ App.png");
     background-size: cover;
     background-position: center;
+   
+}
+.head .img a{
+    opacity: 0.0;
 }
 .headerContainer a{
     font-size: 0.9em;
@@ -40,18 +44,16 @@ body{
     text-transform: capitalize;
 }
 .mainBody{
-    position: relative;
     height: auto;
     overflow: hidden;
     width: 100%;
 }
 .mainBody .searchBox{
-padding-top: 12%;
-display: block;
+position: absolute;
 width: 600px;
-height: auto;
-margin: auto;
-position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-62%);
 }
 .searchTextArea{
     border: 1px solid rgb(243, 237, 237);
@@ -135,10 +137,10 @@ text-align: center;
 }
 .GoogleFooter{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
     height: 11%;
     width: auto;
     background-color: rgb(238, 238, 238);
