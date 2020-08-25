@@ -141,8 +141,9 @@ text-align: center;
     left: 0px;
     right: 0px;
     margin: 0px;
-    height: 11%;
+    height: auto;
     width: auto;
+    padding-bottom: 5px;
     background-color: rgb(238, 238, 238);
 }
 .FooterLinks1{
